@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    Padding: 3px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(193, 248, 248, 0.918),rgba(252, 206, 214, 0.904)),url(https://assets.teenvogue.com/photos/5beb34096029df2db3813b6d/4:3/w_1528,h_1146,c_limit/tout.jpg) ;
+    background-position: center;
+    background-size: cover;
+   
+}
+Header{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border:solid blueviolet; */
+    height:20vh;
+    text-align: center;
+  
+}
+ul{
+    margin-top: 10vh;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 18pt;
+    font-weight: bold;
+    color: black;
+    
+}
+
+h1{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 50pt;
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #0919f0;
+    text-shadow: 5px 5px 0px #1982c4, 
+    10px 10px 0px #06D6a0, 
+    15px 15px 0px  #ffCA3A, 
+    20px 20px 0px #FF595E, 
+    25px 25px 0px #e74e28, 
+    30px 30px 0px red;
+}
+.row{
+    display: flex;
+    
+}
+h2{
+    text-align: left;
+    font-size: 20pt;
+    font-weight: 100;
+    font-family: fantasy;
+    text-decoration:underline
+    
+}
+
+.Outline{
+    text-align: justify;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height:1.50em ;
+    color: black ;
+    
+}
+
+.Column{
+    display: block;
+    float: left;
+    width: 33.33%;
+    /* border:solid red; */
+    text-align: center;
+ 
+}
+li{
+    list-style-type: none;
+    font-size: 16pt;
+    font-weight: 525;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+p{
+    font-size: 16pt;
+}
+
+.Bubbles{
+    width:19.9%;
+    height:19.9%;
+
+}
+.Blossom{
+    width:10.3%;
+    height:10.3%;
+
+}
+.ButterCup{
+    width:9.5%;
+    height:9.5%
+}
+button{
+    font-family:fantasy;
+    font-size: 30pt;
+    text-align: center;
+    text-decoration:underline;
+    color: black;
+    background-color: transparent;
+    border: transparent;
+    margin-top: 5%;
+    
+}
+
