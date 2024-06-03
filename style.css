@@ -108,7 +108,21 @@ button{
     color: black;
     background-color: transparent;
     border: transparent;
-    margin-top: 5%;
+    margin-top: 10%;
+    cursor:pointer
     
 }
+button:hover{
+    font-family:fantasy;
+    font-size: 30pt;
+    text-align: center;
+    text-decoration:underline;
+    color: blue;
+    background-color: transparent;
+    border: transparent;
+    margin-top: 10%;
+    cursor:pointer
+    
+}
+
 
